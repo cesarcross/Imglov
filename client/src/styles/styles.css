@@ -1,0 +1,10 @@
+/* base styles */
+@import './base/base.css';
+
+/* component styles */
+@import './components/Toolbar.css';
+@import './components/NavItem.css';
+@import './components/Logo.css';
+@import './components/Form.css';
+@import './components/Gallery.css';
+@import './components/Banner.css';

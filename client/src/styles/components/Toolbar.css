@@ -1,0 +1,18 @@
+.Toolbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.Toolbar .navbar-default {
+  border-bottom-width: 0;
+  border-radius: 0px;
+  margin-bottom: 0px;
+}
+
+.Toolbar .navbar-toggle {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

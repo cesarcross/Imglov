@@ -1,0 +1,64 @@
+.jumbotron {
+  position: relative;
+  z-index: -10;
+  padding-top: 380px;
+  padding-bottom: 20px;
+  margin: 0 0.5vw 20px;
+  border-radius: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .screen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 0;
+}
+
+.jumbotron p {
+  position: absolute;
+  bottom: 80px;
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.jumbotron p i {
+  font-size: 16px;
+}
+
+.jumbotron h1 {
+  color: white;
+  font-size: 32px;
+  top: 160px;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+.search {
+  position: absolute;
+  bottom: 40px;
+  width: 100%;
+  text-align: center;
+}
+
+.search i {
+  position: relative;
+  top: 4px;
+  left: 32px;
+  font-size: 20px;
+  color: #666;
+}
+
+.search input {
+  width: 400px;
+  height: 45px;
+  border-radius: 4px;
+  padding: 10px 4px;
+}

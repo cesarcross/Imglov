@@ -1,0 +1,21 @@
+.Logo {
+  height: 54px;
+  width: 200px;
+  float: left;
+  margin-left: 16px;
+}
+
+.Logo img {
+  height: 90%;
+  padding: 0px 0px 12px;
+  box-sizing: border-box;
+}
+
+.Logo .title {
+  margin: 0;
+  display: inline-block;
+  margin-left: 20px;
+  font-size: 25px;
+  line-height: 54px;
+  color: black;
+}

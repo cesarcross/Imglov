@@ -1,0 +1,17 @@
+{
+  "name": "Imglov",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Cesar Corregiari <cesarcorregiari@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "cd client && yarn install && yarn build && cd ..",
+    "deploy": "cp -a client/build/. public/",
+    "postinstall": "yarn build && yarn deploy && echo 'Client built!'"
+  },
+  "engines": {
+    "yarn": "1.21.1",
+    "npm": "6.13.4",
+    "node": "12.16.1"
+  }
+}

@@ -1,0 +1,58 @@
+/* FlexBox Gallery styles:
+  https://codepen.io/dudleystorey/pen/Kgofa */
+
+.gallery {
+  padding-left: 0;
+  padding-right: 0;
+  font-size: 0;
+  display: -ms-flexbox;
+  -ms-flex-wrap: wrap;
+  -ms-flex-direction: column;
+  -webkit-flex-flow: row wrap; 
+  flex-flow: row wrap; 
+  display: -webkit-box;
+  display: flex;
+}
+.gallery li { 
+  -webkit-box-flex: auto;
+  -ms-flex: auto;
+  flex: auto; 
+  width: 200px; 
+  margin: .5vw; 
+}
+.gallery li img { 
+  width: 100%; 
+  height: auto; 
+}
+@media screen and (max-width: 400px) {
+  .gallery li { margin: 0; }
+  .gallery { padding: 0; }
+  
+}
+
+.GalleryIndex .gallery li {
+  position: relative;
+}
+
+.GalleryIndex .gallery li .title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.6);
+  opacity: 0;
+}
+
+.GalleryIndex .gallery li .title:hover {
+  opacity: 1.0;
+  transition: opacity 0.4s ease-in;
+}
+
+.GalleryIndex .gallery li h3 {
+  color: #ffffff;
+  font-size: 18px;
+  margin-top: 40%;
+  text-align: center;
+}
+
